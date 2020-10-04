@@ -3,7 +3,6 @@
 
 # In[ ]:
 
-
 import h5py
 import numpy as np
 
@@ -97,4 +96,3 @@ def import_imagenes_RGB():
     CT_y = np.vstack( CT_y ).T
         
     return CT_xn, CT_y
-
